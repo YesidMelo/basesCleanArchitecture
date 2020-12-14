@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(),MainPresenter.View {
 
     override fun updateItems(locations: List<Location>) {
         locationAdapter.listaLocalizaciones = locations.toMutableList()
-        locationAdapter.notifyDataSetChanged()
+        binding.reciclerViewPosiciones.adapter?.notifyDataSetChanged()
     }
 
 }
