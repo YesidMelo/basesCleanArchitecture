@@ -1,9 +1,10 @@
-package com.mitiempo.practicacleanarchitecture
+package com.mitiempo.practicacleanarchitecture.ui
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.mitiempo.domain.Location
 import com.mitiempo.practicacleanarchitecture.databinding.ItemListaLocalizacionesBinding
 
 class LocationAdapter(

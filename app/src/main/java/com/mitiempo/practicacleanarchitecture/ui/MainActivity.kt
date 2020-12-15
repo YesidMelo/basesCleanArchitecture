@@ -1,10 +1,11 @@
-package com.mitiempo.practicacleanarchitecture
+package com.mitiempo.practicacleanarchitecture.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.mitiempo.domain.Location
 import com.mitiempo.practicacleanarchitecture.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity(),MainPresenter.View {
+class MainActivity : AppCompatActivity(), MainPresenter.View {
 
     /**
      * Variables UI

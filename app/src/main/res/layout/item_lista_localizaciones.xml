@@ -5,7 +5,7 @@
     <data>
         <variable
             name="posicion"
-            type="com.mitiempo.practicacleanarchitecture.Location" />
+            type="com.mitiempo.domain.Location" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
